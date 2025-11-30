@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/blackfridaydb
-    username: postgres
-    password: newpassword
+    url: jdbc:postgresql://electrozone-postgres.postgres.database.azure.com:5432/blackfridaydb?sslmode=require
+    username: admin_electro@electrozone-postgres
+    password: EzP0stgres!2025
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -21,4 +21,3 @@ spring:
 
 server:
   port: 8081
-
